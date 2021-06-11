@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'MuseoSans_500';
+    src: url('fonts/MuseoSans_500-webfont.woff2') format('woff2'),
+         url('fonts/MuseoSans_500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p {
+	font-size: 14px;
+	color: #222;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+}
+
+#heading1 {
+	font-family: "Roboto Condensed", Arial, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	color: #009;
+	letter-spacing: 2px;
+	-webkit-text-stroke-width: 0.001px;
+  	-webkit-text-stroke-color: #b1b1b1;
+  	text-shadow: 1px 1px #000000;
+}
+
+#heading2 {
+	font-family: MuseoSans_500, Arial, sans-serif;
+	font-size: 18px;
+	color: #009;
+}
