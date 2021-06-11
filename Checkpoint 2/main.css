@@ -20,6 +20,7 @@ p {
 	color: #222;
 	font-family: Helvetica, Arial, sans-serif;
 	line-height: 1.5;
+	text-indent: 26px;
 }
 
 #heading1 {
@@ -41,4 +42,37 @@ p {
 
 #heading3 {
 	font-family: Bahnschrift, Arial, sans-serif;
+	color: #009;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+h1 {
+	margin: 5em 0em 1em 0em;
+}
+
+em {
+	font-weight: 600;
+}
+
+a {
+	color: #00EDFF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #009;
+}
+
+.noHeading {
+	margin-top: 16px !important;
+}
+
+ul {
+	list-style-type: square;
+}
+
+img {
+	width: 500px;
 }
