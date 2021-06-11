@@ -5,7 +5,14 @@
          url('fonts/MuseoSans_500.ttf')  format('truetype');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+	font-family: 'Bahnschrift';
+	src: url('fonts/Bahnschrift.woff') format('woff'),
+         url('fonts/Bahnschrift.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 p {
@@ -30,4 +37,8 @@ p {
 	font-family: MuseoSans_500, Arial, sans-serif;
 	font-size: 18px;
 	color: #009;
+}
+
+#heading3 {
+	font-family: Bahnschrift, Arial, sans-serif;
 }
