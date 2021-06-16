@@ -79,13 +79,13 @@ p {
 	color: #222;
 }
 
-#heading1 {
+h1 {
 	font-family: 'MuseoSans_500', Helvetica, sans-serif;
 	font-size: 28px;
 	color: #009;
 }
 
-#heading2 {
+h2 {
 	font-family: "Roboto Condensed", Helvetica, sans-serif;
 	/*font-weight: 400;*/
 	font-style: italic;
