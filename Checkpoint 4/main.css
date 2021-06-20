@@ -1,0 +1,77 @@
+/* Font definitions */
+@font-face {
+    font-family: 'Bree Serif';
+    src: url('fonts/BreeSerif-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Trade Winds';
+    src: url('fonts/TradeWinds-Regular.ttf') format('truetype');
+}
+/* End fonts */
+
+/* Text styles */
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+
+h1 {
+    font-family: 'Bree Serif', Arial, sans-serif;
+    font-size: 30px;
+    color: #cc0099;
+}
+
+h2 {
+    font-family: 'Trade Winds', Arial, sans-serif;
+    font-size: 24px;
+    color: #cc0099;
+}
+/* End text styles */
+
+/* Macro styles */
+body {
+    background: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 960px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Top and bottom does not make sense graphically */
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    background-image: url('img/blackstone_bg_v3.png');
+    background-size: 100%;
+}
+
+.flex_container {
+    display: flex;
+}
+
+main {
+    flex-basis: 62.5%;
+    padding: 12px;
+}
+
+aside {
+    flex-basis: 37.5%;
+    padding: 12px;
+    margin-left: 10px;
+}
+
+footer {
+    height: 200px;
+    background: #b1b1b1;
+}
+/* End macro styles */
