@@ -1,0 +1,22 @@
+@media handheld and (max-width: 700px),
+       screen and (max-device-width: 700px),
+       screen and (max-width: 700px) {
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    main {
+        flex: 100%;
+    }
+
+    aside {
+        flex: 100%;
+    }
+}
