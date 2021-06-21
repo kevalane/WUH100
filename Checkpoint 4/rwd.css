@@ -1,6 +1,4 @@
-@media handheld and (max-width: 700px),
-       screen and (max-device-width: 700px),
-       screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
 
     .wrapper {
         width: 100%;
