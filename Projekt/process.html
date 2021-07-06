@@ -1,0 +1,31 @@
+<!-- 
+    Body margin 0 och padding 0 eftersom jag fick oönskat whitespace mellan body och kanter.
+
+    Container är en wrapper tagg som skall användas för mobilanpassning och ge eftersträvansvärt
+    whitespace med sin "max-width".https://www.w3schools.com/w3css/w3css_containers.asp Här gås
+    det igenom en del om containers, men det är även en standardklass i getbootstrap.com som jag
+    använder mycket i privata projekt. Max-width för att jag inte vill att det skall vara bredare
+    än ett ex antal pixlar, och margin-left och -right auto för att centrera. Finns dokumentation på
+    https://www.w3.org/Style/Examples/007/center.en.html, "se centering a block or image".
+
+    Angående header taggen, behövde jag en wrapper till min navbar för att bakgrundsbilden skulle
+    jobba som jag ville. Således var den bästa lösningen en header, sedan en container (för att 
+    navbaren skulle ha samma width som main content, mer om det senare) och sedan navbarlistan.
+    För header elementet valde jag background image, vilket ger mig mer frihet än om jag lägger in bilden
+    separat. Gällande debatten här emellan se: https://stackoverflow.com/questions/492809/when-to-use-img-vs-css-background-image,
+    där även background-size cover gås igenom, som jag också använder. Satte en min height för att jag vill att 
+    bilden iaf ska ha någon höjd. 
+
+    Angående navbar använder jag ul och li (samt a) för att bygga upp den. Detta makes sense eftersom
+    det är en lista av länkar vi försöker stylea. Detta stärks av w3schools, https://www.w3schools.com/css/css_navbar.asp
+
+    I ul taggen använder jag marign 0 och padding 0, eftersom den ger oönskat whitespace uppåt vid större värde.
+    Hittades genom inspect element, har ingen dokumentation mer än att jag träffat på problement många
+    gånger i "karriären." list-style: none gör att listan ej har punkter, vilket är eftersträvansvärt i 
+    detta fallet. Allt detta stärks i tutorial https://www.w3schools.com/css/css_navbar.asp
+
+    I li elementet använder jag display: inline för att få elementen "liggandes" som en
+    vanlig navbar. Går att återfinna i https://www.w3schools.com/css/css_navbar_horizontal.asp
+
+
+ -->
