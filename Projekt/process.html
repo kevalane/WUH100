@@ -19,13 +19,25 @@
     Angående navbar använder jag ul och li (samt a) för att bygga upp den. Detta makes sense eftersom
     det är en lista av länkar vi försöker stylea. Detta stärks av w3schools, https://www.w3schools.com/css/css_navbar.asp
 
+    I min <h1> som har id logoName använder jag inline-block eftersom de ger mig eftersträvandvärd respekt
+    för margins och paddings. Se https://www.w3schools.com/css/css_inline-block.asp. Hade förmodligen även endast
+    kunnat arbeta med padding, margin direkt också. Handlar om vana.
+
     I ul taggen använder jag marign 0 och padding 0, eftersom den ger oönskat whitespace uppåt vid större värde.
     Hittades genom inspect element, har ingen dokumentation mer än att jag träffat på problement många
     gånger i "karriären." list-style: none gör att listan ej har punkter, vilket är eftersträvansvärt i 
-    detta fallet. Allt detta stärks i tutorial https://www.w3schools.com/css/css_navbar.asp
+    detta fallet. Allt detta stärks i tutorial https://www.w3schools.com/css/css_navbar.asp. Använder
+    också float right i detta fallet eftersom jag vill ha listan till höger. Använde float eftersom det
+    kändes något lättare att implementera än flexbox i detta fallet. Hade kunnat använda display: inline-flex.
+    https://dev.to/ethanmgustafson/css-float-flexbox-14fg
 
     I li elementet använder jag display: inline för att få elementen "liggandes" som en
     vanlig navbar. Går att återfinna i https://www.w3schools.com/css/css_navbar_horizontal.asp
+
+    Jag ville endast ha text decoration på hover, alltså inte vanligt. Således none på a, men 
+    underline på a:hover, se https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration för
+    dokumentation. Gällande a:hover så är det en selektor för när man hovrar, dokumentation finns på
+    https://www.w3schools.com/csSref/sel_hover.asp    
 
 
  -->

@@ -18,14 +18,31 @@ header {
     min-height: 400px;
 }
 
+#logoName {
+    display: inline-block;
+    color: #fff;
+}
+
 nav > ul {
     margin: 0;
-    padding: 0;
+    padding: 1.5em;
     list-style: none;
+    float: right;
 }
 
 nav > ul > li {
     display: inline;
+    padding: 1em;
+}
+
+nav > ul > li > a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    text-decoration: underline;
+    color: #fff;
 }
 
 /* End header section */
